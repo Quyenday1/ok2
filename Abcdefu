@@ -1,0 +1,65 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 40 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ f [8ws] [8w] [8wf] [8wf] [8ws] [8w] 
+[8wf] [8wf] [37a] [37a] [37f] [37f] [37a] [37]
+[37s] [37s] [60p] [60] [60s] [60] [60s] [60]
+[60o] [60o] [48o] [48o] [48s] [48] [48s] [48]
+
+[48f] [48] [8ws] [8w] [8wf] [8wf] [8ws] [8w] 
+[8wf] [8wf] [37a] [37a] [37f] [37f] [37a] [37]
+[37s] [37s] [60p] [60p] [60s] [60s] [60s] [60]
+[60o] [60o] [48o] [48] [48s] [48] [48s] [48] [48] [48]
+
+8 [8s] s [8s] [wts] [8s] s [8f] [3a] 3 a [3p] [70a] 3 s [3p]
+6 6 s [6s] [0es] [6s] s [6f] [4a] 4 a [4p] [8qa] 4 o [4u]
+8 8 s [8s] [wts] [8s] s [8f] [3a] 3 a [3p] [70a] 3 s [3o]
+[6p] [6o] p [6o] [0ep] [6o] p [6o] [4p] 4 u [4o] [8q] 4 4
+
+8 [8s] s [8s] [wts] [8s] f [8a] 3 [3p] a [3p] [70a] 3 s [3p]
+6 [6s] s [6s] [0es] [6s] f [6a] 4 [4p] a [4p] [8qa] 4 o [4u]
+8 [8s] s [8s] [wts] [8s] f [8a] 3 [3p] a [3p] [70a] 3 s [3o]
+[6p] [6o] p [6o] [0ep] [6o] p [6o] [4p] 4 i 4 [8q] 4 4
+
+[8w] 8 [8ws] [8s] [8ws] 8 [8wf] [8h] [37] 3 [37h] [3h] [37h] [3h] [37j] [3f]
+[60] [6d] [60] 6 [60] 6 [60s] [6g] [48] [4g] [48] [4g] [48] [4f] [48d] [4s]
+[8w] [8s] [8ws] [8s] [8ws] 8 [8wf] [8h] [37] [3f] [37h] [3f] [37h] 3 [37j] [3f] [60]
+[6d] [60] 6 - f f f f f f
+
+[18s] 5 [8f] [5f] [18s] 5 [8f] [5f] [30a] [7a] [0f] [7f] [30a] 7
+[0s] [7s] [6ep] 0 [es] 0 [6es] 0 [eo] [0o] [4qo] [8o] [qs] 8 [4qs] 8
+[qf] 8 [18s] 5 [8f] [5f] [18s] 5 [8f] [5f] [30a] [7a] [0f] [7f] [30a] 7
+[0s] [7s] [6ep] [0p] [es] [0s] [6es] 0 [eo] [0o] [4qo] 8 [qs] 8 [4qs] 8 q 8
+
+[18] 5 8 5 [18s] [5d] [8f] [5h] [30] 7 [0h] 7 [30h] 7 [0j] [7f]
+[6e] 0 e 0 [6ef] 0 [ef] 0 [4qf] 8 [qf] 8 [4qf] f
+-
+[18s] [8s] s [8s] [wts] [8s] f [8a] [30] 3 a [3p] [70a] 3 s [3p]
+[6e] [6s] s [6s] [0es] [6s] f [6a] [4q] [4o] p o p o u
+[18] [8s] s [8s] [wts] [8s] f [8a] [30] [3p] a [3p] [70a] 3 s 3
+[6ep] [6o] p [6o] [0ep] [6o] p [6o] [4qp] 4 i 4 [8q] 4 4
+
+[18] 8 s [8s] [wts] 8 f [8h] [30] 3 h [3h] [70h] [3h] j [3f]
+[6e] [6d] 6 [0e] 6 s [6g] [4q] [4g] [4g] [8q] [4f] d [4s]
+[8w] [8s] [8ws] [8s] [8ws] 8 [8wf] [8h] [37] [3f] [37h] [3f] [37h] 3 [37j] [3f] [60]
+[6d] [60] 6 - f f f f f f
+
+[18s] 5 [8f] [5f] [18s] 5 [8f] [5f] [30a] [7a] [0f] [7f] [30a] 7
+[0s] [7s] [6ep] 0 [es] 0 [6es] 0 [eo] [0o] [4qo] [8o] [qs] 8 [4qs] 8
+[qf] 8 [18s] 5 [8f] [5f] [18s] 5 [8f] [5f] [30a] [7a] [0f] [7f] [30a] 7
+[0s] [7s] [6ep] [0p] [es] [0s] [6es] 0 [eo] [0o] [4qo] 8 [qs] 8 [4qs] 8 q 8
+
+[18] 5 8 5 [18s] [5d] [8f] [5h] [30] 7 [0h] 7 [30h] 7 [0j] [7f]
+[6e] 0 e 0 [6ef] 0 [ef] 0 [4qf] 8 [qf] 8 [4qf] 8 [qf] 8
+[18s] 5 8 5 [18s] [5d] [8f] [5h] [30] 7 [0h] 7 [30h] 7 [0j] [7f]
+[6e] 0 e 0 [6ef] 0 [ef] 0 [4qf] 8 [qf] 8 [4qf] 8 [qf] 8
+
+[us] t [uf] [tf] [us] t [uf] [tf] [ua] [ra] [uf] [rf] [ua] r
+[us] [rs] [up] t [us] t [us] t [uo] [to] [io] [to] [is] t [is] t
+[if] t [us] t [uf] [tf] [us] t [uf] [tf] [ua] [ra] [uf] [rf] [ua] r
+[us] [rs] [up] [tp] [us] [ts] [us] t [uj] t h [ih] f f d s ]]
